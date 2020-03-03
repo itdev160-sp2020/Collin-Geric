@@ -1,0 +1,33 @@
+body { 
+    font-family : "Open Sans", "sans-seriff"; 
+    color: purple; 
+    background-color: #222222
+
+} 
+
+h1 { 
+    color: pink; 
+    background-color: blueviolet; 
+    text-align: center; 
+} 
+
+image { 
+    height: 50px; 
+    text-align: center; 
+}
+
+figcaption span {
+    font-size: .85em; 
+
+} 
+
+p#product-description{ 
+    margin: 20px 0 20px 0; 
+    text-align: center; 
+} 
+
+div.review { 
+    padding: 10 px; 
+    background-color: green; 
+    margin: 20px 0 20px 0
+}
