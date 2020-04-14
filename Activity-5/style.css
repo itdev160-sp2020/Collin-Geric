@@ -1,0 +1,16 @@
+body{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin: auto 30 px; 
+    background-color: burlywood; 
+
+}
+
+#credits { 
+    font-style: bold; 
+    font-size: .75em; 
+    margin-bottom: 20px;
+}
+
+#header-image{ 
+    width: 100%;
+}
