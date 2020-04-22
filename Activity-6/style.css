@@ -1,0 +1,26 @@
+body{ 
+    max-width: 500px; 
+    margin: 0 auto; 
+    background-color: cornflowerblue; 
+}
+
+h1{ 
+    font-family: cursive; 
+    color: purple; 
+}
+
+.mesages{ 
+    margin-bottom: 20px; 
+
+}
+
+.out-message{ 
+    padding: 5px; 
+    background-color: lightgreen; 
+
+}
+
+.in-message { 
+    padding: 5px; 
+    background-color: coral; 
+}
