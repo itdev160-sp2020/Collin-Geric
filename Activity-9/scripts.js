@@ -21,13 +21,13 @@ $(function() {
         }, 
         { 
             id: 4, 
-            title: 'plans', 
+            title: 'Plans', 
             body: "Life is what happens when you're busy making plans.", 
             author: "John Lennon"
         }, 
         {
             id: 5, 
-            title: 'teach',
+            title: 'Teach',
             body: "Tell me and I forget. Teach me and I remember. Involve me and I learn.", 
             author: "Benjamin Franklin"
         }
@@ -43,9 +43,9 @@ $(function() {
         for (let i = 0; i < data.length; i++) { 
             var postId = 'post-' + data[i].id, 
                 $post = $('<section class = "post"></section>'), 
-                $title = $('<h2 class = "title></h2>'), 
+                $title = $('<h2 class = "title"></h2>'), 
                 $body = $('<blockquote></blockquote>'), 
-                $author = $('<span class = "author></span>'),
+                $author = $('<span class="author"></span>'),
                 $navItem = $('<li></li>'); 
 
             $title.text(data[i].title); 
@@ -53,7 +53,7 @@ $(function() {
             $author.text(data[i].author); 
 
             $navItem.attr('id', data[i].id); 
-            $navItem.text(data[i].author); 
+            $navItem.text(data[i].title); 
 
             $post.attr('id', postId); 
             $post.append($title); 
